@@ -32,22 +32,10 @@
             &__combo {
                 width: calc(50% - 12px);
                 margin-bottom: 38px;
+                list-style: none;
 
                 img {
                     max-height: 60px;
-                }
-
-                button {
-                    display: block;
-                    width: 100%;
-                    height: 60px;
-                    font-size: 16px;
-                    color: variaveis.$corTextoSecundaria;
-                    background-color: variaveis.$corDoBotao;
-                    text-transform: uppercase;
-                    border-radius: 4px;
-                    margin-top: 2vw;
-                    margin-bottom: 8px;
                 }
             }
         }
