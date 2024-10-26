@@ -8,11 +8,26 @@
 </head>
 <body>
     <main>
+        <header class="header">
+            <div class="header__container">
+                <h1>
+                    <img class="header__logo" src="./dist/images/Filmes e series.svg" alt="Filmes e series">
+                </h1>
+                <ul class="header__links">
+                    <li class="header__links__item">
+                        <a class="button button--secondary" href="#">Assine agora</a>
+                    </li>
+                    <li class="header__links__item ">
+                        <a class="button button--dark" href="#">Entrar</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
         <section class="hero">
             <div class="hero__content">
-                <h1 class="hero__content__branding">
+                <div class="hero__content__branding">
                     <img  src="./dist/images/Filmes e series.svg" alt="Filmes e series">
-                </h1>
+                </div>
                 <h3 class="title--small">
                     As melhores histórias em um só lugar.
                 </h3>
@@ -157,7 +172,10 @@
         </section>
 
         <section class="image-text-section image-text-section--image-full-width">
-            <img src="./dist/images/fundo_rei_leao.png" alt="Rei Leão">
+            <picture>
+                <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png"/>
+                <img src="./dist/images/fundo_rei_leao.png" alt="Rei Leão">
+            </picture>
             <div class="image-text-section--image-full-width__text__container">
                 <h2 class="title">Baixe filmes e séries</h2>
                 <p class="text--big">
